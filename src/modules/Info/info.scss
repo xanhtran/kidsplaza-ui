@@ -1,0 +1,86 @@
+.info {
+  width: 300px;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-white);
+}
+
+.info-user {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 10px;
+  padding: 0 10px;
+  height: 80px;
+  background-color: var(--color-white);
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;;
+}
+
+.user-left,
+.user-right{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.coin-price,
+.promo-title {
+  color: var(--color-primary);
+}
+
+.coin-price{
+font-weight: 600;
+}
+.btn-Buy {
+  background-color: var(--color-btn);
+  color: var(--color-white);
+  border-radius: 20px;
+  height: 20px;
+  width: 70px;
+  font-size: 10px;
+  outline: none;
+  border: none;
+}
+.info-personal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 9px;
+  height: 120px;
+  font-weight: 400;
+}
+.info-promo {
+  background-color: var(--color-pink);
+  padding: 10px;
+}
+.group-text {
+  padding: 10px;
+ p {
+  font-size: 11px;
+ }
+}
+
+.group-block-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+
+.h4-title {
+  font-weight: 500;
+  font-size: 14px;
+
+}
+
+.block-content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.block-content-right {
+  display: flex;
+  flex-direction: column;
+}

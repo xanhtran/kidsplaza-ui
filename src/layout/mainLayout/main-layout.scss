@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+
+
+}
+
+@media (max-width: 740px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .widget {
+      width: 100%;
+      margin-right: 0;
+    }
+    .outlet-product {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}

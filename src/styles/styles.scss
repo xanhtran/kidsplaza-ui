@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&family=Sen:wght@800&display=swap');
+
+@import './variables';
+@import './normalize';
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+font-family: 'Sen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 992px) {
+  /* For desktop: */
+  .wrapper {
+    // width: 1280px;
+    // padding: 0 15px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  /* For mobile phones: */
+  .wrapper {
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .slick-slider {
+    overflow: hidden;
+  }
+}
